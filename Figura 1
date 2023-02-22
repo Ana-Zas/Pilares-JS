@@ -1,0 +1,13 @@
+// Crear una figura a partir de un caracter solicitado al usuario
+// Ana Zárate
+//Folio 964RT022 
+
+var caracter = prompt("Para formar una figura, ingresa un caracter: ");
+var largoAncho = 3
+for (var i = 0; i < largoAncho; i++){
+    var columna = "";
+        for (var j = 0; j < largoAncho; j++){
+            columna += caracter
+ }
+ console.log(columna) 
+}
