@@ -1,0 +1,20 @@
+//Programa para comprobar cuál es el número mayor
+// Ana Zárate
+//Folio 964RT022 
+
+var num1 = 5;
+var num2 = 25;
+var num3 = 10;
+
+//Inicia el bloque de comparación de los tres números
+if (num1 > num2 && num1 > num3) {
+  console.log("El num1 es mayor = " + num1);
+    
+}else if (num2 > num1 && num2 > num3) {
+//}    else if (num2>num3 && num2>num1){
+    console.log("El num2 es mayor = " + num2);
+    
+}else{
+    console.log("El mayor es num3 = " + num3);
+    
+}
